@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>首頁 - 六六的鞋子專賣店 | 極致舒適與時尚鞋履的完美結合</title>
-  <meta name="description" content="六六的鞋子專賣店精選上等真皮皮鞋、潮流運動慢跑鞋、時髦飾品與專業鞋墊配件。提供極致舒適的穿著體驗與尊榮售後服務。">
+  <title>休閒服飾 - 六六的鞋子專賣店 | 輕鬆率性日常鞋履</title>
+  <meta name="description" content="瀏覽六六的鞋子專賣店休閒鞋類與服飾，包括經典小白鞋、復古慢跑鞋、飛織懶人鞋及潮流老爹鞋。兼顧日常穿搭與卓越舒適度。">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,9 +25,9 @@
       
       <nav id="nav-menu">
         <ul>
-          <li><a href="index.html" class="active" id="nav-home">首頁</a></li>
+          <li><a href="index.html" id="nav-home">首頁</a></li>
           <li><a href="about.html" id="nav-about">公司簡介</a></li>
-          <li><a href="casual.html" id="nav-casual">休閒服飾</a></li>
+          <li><a href="casual.html" class="active" id="nav-casual">休閒服飾</a></li>
           <li><a href="formal.html" id="nav-formal">正式服飾</a></li>
           <li><a href="jewelry.html" id="nav-jewelry">飾品</a></li>
           <li><a href="accessories.html" id="nav-accessories">配件</a></li>
@@ -49,73 +49,19 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="hero-banner">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <h1>
-          穿上優雅，<span>一步到位</span>
-        </h1>
-        <p>「六六的鞋子專賣店」秉持對細節的專注，精選頂級牛皮與科技材料，由資深工匠精心打磨。無論是率性休閒還是精緻商務場合，我們都為您的雙腳提供雲端般的包覆與最耀眼的潮流風采。</p>
-        <div class="btn-group">
-          <a href="casual.html" class="btn btn-primary" id="hero-btn-shop">立即選購</a>
-          <a href="about.html" class="btn btn-secondary" id="hero-btn-about">品牌故事</a>
-        </div>
-      </div>
-      <div class="hero-image-wrapper">
-        <div class="hero-circle-bg"></div>
-        <img class="hero-image" src="assets/product_1.png" alt="經典白鞋熱銷精選" id="hero-featured-img">
-      </div>
+  <!-- Category Hero Banner -->
+  <section class="about-hero" style="background: linear-gradient(180deg, rgba(79, 209, 197, 0.05), transparent);">
+    <div class="container">
+      <h1>休閒服飾系列</h1>
+      <p style="color: hsl(var(--accent-cyan)); font-size:1.1rem; font-weight:600;">讓日常跨出的每一步，都成為輕鬆享受的樂章</p>
     </div>
   </section>
 
-  <!-- Categories Preview Section -->
-  <section class="categories-preview" id="category-section">
+  <!-- Product List Section -->
+  <section class="products-section">
     <div class="container">
-      <div class="section-header">
-        <h2>精選產品分類</h2>
-        <p>探索我們量身打造的各大產品線，滿足您的生活與工作場景</p>
-      </div>
-      
-      <div class="category-grid">
-        <!-- 休閒服飾 -->
-        <div class="category-card" onclick="window.location.href='casual.html'">
-          <img class="category-card-bg" src="assets/product_2.png" alt="休閒服飾">
-          <h3>休閒服飾</h3>
-          <p>舒適通勤與潮流慢跑 &rarr;</p>
-        </div>
-        <!-- 正式服飾 -->
-        <div class="category-card" onclick="window.location.href='formal.html'">
-          <img class="category-card-bg" src="assets/product_5.png" alt="正式服飾">
-          <h3>正式服飾</h3>
-          <p>手工真皮與極致商務 &rarr;</p>
-        </div>
-        <!-- 飾品 -->
-        <div class="category-card" onclick="window.location.href='jewelry.html'">
-          <img class="category-card-bg" src="assets/product_9.png" alt="飾品">
-          <h3>時尚飾品</h3>
-          <p>耀眼純銀與精緻配飾 &rarr;</p>
-        </div>
-        <!-- 配件 -->
-        <div class="category-card" onclick="window.location.href='accessories.html'">
-          <img class="category-card-bg" src="assets/product_12.png" alt="配件">
-          <h3>鞋類配件</h3>
-          <p>科技鞋墊與護理保養 &rarr;</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Featured Products Section -->
-  <section class="products-section" id="featured-section">
-    <div class="container">
-      <div class="section-header">
-        <h2>人氣熱銷排行</h2>
-        <p>為您推薦本季最受喜愛的明星熱門單品，好評如潮，立即搶購</p>
-      </div>
-      
-      <!-- Dynamically filled by render.js -->
-      <div class="product-grid" id="featured-products"></div>
+      <!-- Dynamic list container filled by render.js -->
+      <div class="product-grid" id="category-products" data-category="casual"></div>
     </div>
   </section>
 
