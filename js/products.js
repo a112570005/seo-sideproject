@@ -6,7 +6,7 @@ const products = [
     category: "casual",
     price: 2480,
     originalPrice: 3200,
-    image: "assets/product_1.png",
+    image: "assets/六六的鞋子專賣店-小白鞋.png",
     description: "這款經典小白鞋採用頂級全粒面牛皮製成，設計簡約流暢。配有高彈性透氣鞋墊與耐磨防滑橡膠大底，無論是休閒出遊還是日常通勤，都能為您提供極致的舒適體驗與百搭風格。六六鞋店熱銷排行榜冠軍之作！",
     details: [
       "鞋面材質：義大利進口頂級牛皮",
@@ -24,7 +24,7 @@ const products = [
     category: "casual",
     price: 2880,
     originalPrice: 3600,
-    image: "assets/product_2.png",
+    image: "assets/六六的鞋子專賣店-慢跑鞋.png",
     description: "結合 90 年代經典復古輪廓與現代緩震科技，鞋面採用高級麂皮與高科技透氣網布拼接，色彩層次豐富。搭載雙密度 EVA 中底，提供出色的足弓支撐與吸震效果，是街頭穿搭與輕量運動的完美選擇。",
     details: [
       "鞋面材質：高級防潑水麂皮 + 科技耐磨透氣網布",
@@ -41,7 +41,7 @@ const products = [
     category: "casual",
     price: 1880,
     originalPrice: 2400,
-    image: "assets/product_3.png",
+    image: "assets/六六的鞋子專賣店-無鞋帶慢跑鞋.png",
     description: "採用一體成型 3D 飛織鞋面，如同第二層皮膚般貼合雙腳。超輕量中底讓您行走時幾乎感受不到重量，一腳蹬的一秒穿脫設計特別適合忙碌的都市生活，透氣不悶熱，是炎炎夏日的最佳良伴。",
     details: [
       "鞋面材質：3D 一體成型高彈力飛織科技網面",
@@ -59,7 +59,7 @@ const products = [
     category: "casual",
     price: 3280,
     originalPrice: 4200,
-    image: "assets/product_4.png",
+    image: "assets/六六的鞋子專賣店-老爹鞋.png",
     description: "時髦街頭風格的核心！獨特的多層次波浪厚底設計，隱形增高 5 公分，修飾腿部線條效果極佳。鞋面以反光材質拼接科技面料，在夜晚散發獨特光芒。內部空間寬敞，厚腳背亦能舒適穿著。",
     details: [
       "鞋面材質：合成皮革 + 科技反光面料 + 雙層網眼布",
@@ -76,7 +76,7 @@ const products = [
     category: "formal",
     price: 4800,
     originalPrice: 6500,
-    image: "assets/product_5.png",
+    image: "assets/六六的鞋子專賣店-皮鞋.png",
     description: "紳士的極致展現。由資深鞋匠歷經 66 道工序手工打磨與縫製，精緻的布洛克（Brogue）雕花工藝展現無與倫比的高貴質感。選用進口植鞣小牛皮，越穿越貼合腳型，散發淡淡的經典皮革香氣。",
     details: [
       "鞋面材質：頂級進口義大利植鞣小牛皮（經拋光打蠟處理）",
@@ -94,7 +94,7 @@ const products = [
     category: "formal",
     price: 4200,
     originalPrice: 5500,
-    image: "assets/product_6.png",
+    image: "assets/六六的鞋子專賣店-真皮鞋.png",
     description: "閃耀正式場合的焦點。鏡面般的黑亮漆皮鞋面，質地細緻防水防污。德比鞋的開放式襟片設計，能提供極佳的腳背容納度與便利調整性，是婚禮、商務論壇及晚宴等正式場合的最佳拍檔。",
     details: [
       "鞋面材質：特級防裂鏡面防水漆皮",
@@ -111,7 +111,7 @@ const products = [
     category: "formal",
     price: 3680,
     originalPrice: 4800,
-    image: "assets/product_7.png",
+    image: "assets/六六的鞋子專賣店-樂福鞋.png",
     description: "將英倫學院風與現代時尚完美融合。精緻耀眼的金色馬銜扣點綴於亮澤的荔枝紋皮革鞋面，展現低調的奢華。踩腳兩穿設計，可作為時尚單鞋或休閒穆勒鞋穿著，隨心轉換您的穿搭風格。",
     details: [
       "鞋面材質：高級定製荔枝紋牛皮",
@@ -128,7 +128,7 @@ const products = [
     category: "formal",
     price: 3980,
     originalPrice: 5200,
-    image: "assets/product_8.png",
+    image: "assets/六六的鞋子專賣店-高跟鞋.png",
     description: "優雅女性的自信之源。這款尖頭高跟鞋採用流線型鞋身設計，將足部線條延伸至極致。8 公分特製輕量化電鍍金屬鞋跟，美觀且結構極其穩固。內置減壓足弓墊，打破高跟鞋難以久站的魔咒。",
     details: [
       "鞋面材質：細緻珠光羊皮 / 時尚絨面面料",
@@ -145,7 +145,7 @@ const products = [
     category: "jewelry",
     price: 980,
     originalPrice: 1500,
-    image: "assets/product_9.png",
+    image: "assets/六六的鞋子專賣店-項鍊.png",
     description: "專為襯托鞋款美感而設計的細節飾品。選用抗過敏 925 標準純銀製作，經典的水波紋鏈條在陽光下折射出如水面波光粼粼的耀眼光芒。配有延長鏈，可自由調節鬆緊，完美裝飾腳踝。",
     details: [
       "材質：國際標準 925 標準純銀（不含鎳，防過敏）",
@@ -162,7 +162,7 @@ const products = [
     category: "jewelry",
     price: 390,
     originalPrice: 600,
-    image: "assets/product_10.png",
+    image: "assets/六六的鞋子專賣店-配件.png",
     description: "為您的鞋款注入俏皮的個人風格！一組六款設計獨特的立體鞋扣，包含可愛食物、潮流球鞋、和平標誌等元素。採用安全無毒的環保 PVC 軟膠材質，扣合穩固不易掉落，適用於洞洞鞋、運動鞋帶扣等。",
     details: [
       "材質：環保優質 PVC 軟膠 + 塑料扣腳",
@@ -179,7 +179,7 @@ const products = [
     category: "jewelry",
     price: 580,
     originalPrice: 900,
-    image: "assets/product_11.png",
+    image: "assets/六六的鞋子專賣店-鑰匙扣.png",
     description: "實用與美學的精緻融合。精選實心黃銅打造，隨著使用時間推移，會產生迷人的氧化包漿，展現復古韻味。小巧曲線符合人體工學，隨身攜帶，讓您在任何地方脫鞋、穿鞋都能保持從容優雅。",
     details: [
       "材質：100% 實心優質黃銅 + 瘋馬皮掛件",
@@ -196,7 +196,7 @@ const products = [
     category: "accessories",
     price: 450,
     originalPrice: 650,
-    image: "assets/product_12.png",
+    image: "assets/六六的鞋子專賣店-鞋用防水噴霧.png",
     description: "愛鞋人士的必備防護罩！採用新一代奈米成膜技術，噴灑後在鞋面上形成隱形的超疏水分子網。能有效防雨、防泥、防油污，且完全不影響原鞋材的透氣性。一瓶可噴灑約 10-15 雙鞋，防護時效長達 30 天。",
     details: [
       "容量：250ml",
@@ -213,7 +213,7 @@ const products = [
     category: "accessories",
     price: 290,
     originalPrice: 400,
-    image: "assets/product_13.png",
+    image: "assets/六六的鞋子專賣店-不同顏色鞋帶.png",
     description: "為您的皮鞋或靴子換上嶄新表情。選用 100% 天然純棉編織，表面經環保打蠟拋光處理，不易起毛球、不易鬆脫，更具有防潑水效果。一組內含經典黑、深咖啡、典雅燕麥三色，滿足您不同鞋款的穿搭需求。",
     details: [
       "材質：100% 精梳純棉（外層打蠟塗層）",
