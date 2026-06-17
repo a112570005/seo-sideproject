@@ -1,7 +1,7 @@
 // 六六的鞋子專賣店 - 產品資料庫
 const products = [
   {
-    id: 1,
+    id: "六六的鞋子專賣店-小白鞋",
     name: "經典極簡純白小白鞋",
     category: "casual",
     price: 2480,
@@ -19,7 +19,7 @@ const products = [
     sizes: ["EU 36", "EU 37", "EU 38", "EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"]
   },
   {
-    id: 2,
+    id: "六六的鞋子專賣店-慢跑鞋",
     name: "復古拼色科技慢跑鞋",
     category: "casual",
     price: 2880,
@@ -36,7 +36,7 @@ const products = [
     sizes: ["EU 36", "EU 37", "EU 38", "EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"]
   },
   {
-    id: 3,
+    id: "六六的鞋子專賣店-無鞋帶慢跑鞋",
     name: "極致輕量針織透氣懶人鞋",
     category: "casual",
     price: 1880,
@@ -54,7 +54,7 @@ const products = [
     sizes: ["EU 36", "EU 37", "EU 38", "EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"]
   },
   {
-    id: 4,
+    id: "六六的鞋子專賣店-老爹鞋",
     name: "潮流厚底老爹鞋",
     category: "casual",
     price: 3280,
@@ -71,7 +71,7 @@ const products = [
     sizes: ["EU 35", "EU 36", "EU 37", "EU 38", "EU 39", "EU 40", "EU 41", "EU 42"]
   },
   {
-    id: 5,
+    id: "六六的鞋子專賣店-皮鞋",
     name: "頂級手工雕花牛津皮鞋",
     category: "formal",
     price: 4800,
@@ -89,7 +89,7 @@ const products = [
     sizes: ["EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44", "EU 45"]
   },
   {
-    id: 6,
+    id: "六六的鞋子專賣店-真皮鞋",
     name: "優雅漆皮德比正式鞋",
     category: "formal",
     price: 4200,
@@ -106,7 +106,7 @@ const products = [
     sizes: ["EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"]
   },
   {
-    id: 7,
+    id: "六六的鞋子專賣店-樂福鞋",
     name: "英倫復古馬銜扣樂福鞋",
     category: "formal",
     price: 3680,
@@ -123,7 +123,7 @@ const products = [
     sizes: ["EU 36", "EU 37", "EU 38", "EU 39", "EU 40", "EU 41", "EU 42", "EU 43", "EU 44"]
   },
   {
-    id: 8,
+    id: "六六的鞋子專賣店-高跟鞋",
     name: "奢華金屬跟亮面高跟鞋",
     category: "formal",
     price: 3980,
@@ -140,7 +140,7 @@ const products = [
     sizes: ["EU 35", "EU 36", "EU 37", "EU 38", "EU 39", "EU 40"]
   },
   {
-    id: 9,
+    id: "六六的鞋子專賣店-項鍊",
     name: "極簡 925 純銀水波紋腳鏈",
     category: "jewelry",
     price: 980,
@@ -157,7 +157,7 @@ const products = [
     sizes: ["F (單一尺寸，具備調節鏈)"]
   },
   {
-    id: 10,
+    id: "六六的鞋子專賣店-配件",
     name: "潮流繽紛鞋扣配件組 (6入)",
     category: "jewelry",
     price: 390,
@@ -174,7 +174,7 @@ const products = [
     sizes: ["F (單一尺寸)"]
   },
   {
-    id: 11,
+    id: "六六的鞋子專賣店-鑰匙扣",
     name: "復古黃銅隨身鞋拔鑰匙圈",
     category: "jewelry",
     price: 580,
@@ -191,7 +191,7 @@ const products = [
     sizes: ["F (單一尺寸)"]
   },
   {
-    id: 12,
+    id: "六六的鞋子專賣店-鞋用防水噴霧",
     name: "專業強效奈米防潑水防污噴霧",
     category: "accessories",
     price: 450,
@@ -208,7 +208,7 @@ const products = [
     sizes: ["250ml (單一規格)"]
   },
   {
-    id: 13,
+    id: "六六的鞋子專賣店-不同顏色鞋帶",
     name: "高級打蠟圓形棉質鞋帶組 (三色)",
     category: "accessories",
     price: 290,
@@ -225,12 +225,12 @@ const products = [
     sizes: ["80cm (皮鞋適用)", "120cm (休閒鞋適用)"]
   },
   {
-    id: 14,
+    id: "六六的鞋子專賣店-高彈記憶鞋墊",
     name: "3D 人體工學高彈記憶鞋墊",
     category: "accessories",
     price: 350,
     originalPrice: 500,
-    image: "assets/product_14.png",
+    image: "assets/六六的鞋子專賣店-高彈記憶鞋墊.png",
     description: "讓任何一雙鞋都變成雲端慢跑鞋！採用三維人體工學曲線設計，後跟杯加強避震氣墊，足弓部分隆起提供完美支撐。前掌大面積分佈按摩微粒，吸汗透氣的面料可預防腳臭，特別適合長時間站立或行走的上班族。",
     details: [
       "材質：高回彈記憶海綿 + 減壓矽膠氣墊 + 萊卡透氣排汗布",
@@ -241,12 +241,12 @@ const products = [
     sizes: ["S碼 (適合 EU 35-40)", "L碼 (適合 EU 41-46)"]
   },
   {
-    id: 15,
+    id: "六六的鞋子專賣店-厚磅帆布袋",
     name: "品牌限定簡約厚磅帆布袋",
     category: "others",
     price: 390,
     originalPrice: 600,
-    image: "assets/product_15.png",
+    image: "assets/六六的鞋子專賣店-厚磅帆布袋.png",
     description: "「六六的鞋子專賣店」限量版帆布購物袋。採用 12 盎司厚磅天然棉質帆布製成，質地厚實耐重。大容量空間可輕鬆放入鞋盒、筆記型電腦或日常雜物。內設拉鍊小暗袋，可放置鑰匙或手機，極具實用性。",
     details: [
       "材質：12 盎司 100% 天然純棉厚帆布",
@@ -258,12 +258,12 @@ const products = [
     sizes: ["F (單一尺寸)"]
   },
   {
-    id: 16,
+    id: "六六的鞋子專賣店-彈簧鞋撐",
     name: "天然紅雪松木彈簧鞋撐 (一雙)",
     category: "others",
     price: 880,
     originalPrice: 1200,
-    image: "assets/product_16.png",
+    image: "assets/六六的鞋子專賣店-彈簧鞋撐.png",
     description: "皮鞋長壽的秘密武器。選用北美天然紅雪松木（Red Cedar）製作，不經漆料處理，保留木材天然氣孔。能完美吸收鞋內汗水與濕氣，並散發天然的森林芬多精香氣，有效防霉除臭。雙向彈簧設計能撐托鞋身防皺。",
     details: [
       "材質：100% 北美天然紅雪松木 + 不鏽鋼雙向回彈彈簧",
